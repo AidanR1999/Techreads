@@ -417,15 +417,18 @@ router.post('/interests/', function(req, res) {
     res.send(newinterest);
 })
 
-/* GET login by user */
+/* POST login by user */
 /* body should be of the form {"username":"anon", "password":"pass123"} */
-router.get('/login/', function(req, res) {
+router.post('/login/', function(req, res) {
     var user = users.filter(function(u) {
-        return u.user == req.params.username;
-    });
-    if(user[0].password == req.params.password) {
-        selectedinterests.length==0 ? res.status(404): res.status(200);
-        res.send(user);
+        return u.username == req.body.username;
+    })
+    // var user = users.filter(function(u) {
+    //     return u.user.username == req.body.username;
+    // });
+
+    if(user[0].password == req.body.password) {
+        res.send(user[0]);
     } 
     else {
         res.status(401);
@@ -439,6 +442,7 @@ router.post('/register/', function(req, res) {
     users.push(user);
     res.status(202);
     res.send(user);
+    console.log(users);
 })
 
 

@@ -15,7 +15,6 @@ export class BrowseComponent implements OnInit {
   ngOnInit() {
     this.bookService.getBooks().subscribe(data => {
       this.books = data;
-      console.log(this.books)
     });
   }
 

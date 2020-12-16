@@ -1,6 +1,6 @@
 <div class="container" id="book-list">
     <div class="row justify-content-end">
-      <div *ngFor="let book of books" class="col-lg-2 col-md-3 col-sm-10" id="book-cards">
+      <div *ngFor="let book of books" class="col-lg-3 d-flex align-items-stretch" id="book-cards">
         <app-card [book]="book"></app-card>
       </div>
     </div>

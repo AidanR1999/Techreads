@@ -1,0 +1,16 @@
+<h1>Register new account</h1>
+<form #registerForm="ngForm" (ngSubmit)="register()" class="container">
+    <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input class="form-control" id="username" required [(ngModel)]="model.username" name="username">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" required [(ngModel)]="model.password" name="password">
+      </div>
+    <div class="mb-3">
+        <label for="confPassword" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="confPassword" required [(ngModel)]="model.confPassword" name="confPassword">
+      </div>
+    <button [disabled]="!registerForm.valid" type="submit" class="btn btn-primary">Register</button>
+</form>
