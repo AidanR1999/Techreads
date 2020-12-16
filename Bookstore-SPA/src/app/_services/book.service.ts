@@ -8,9 +8,13 @@ import { Book } from '../_models/book';
 })
 export class BookService {
   baseUrl = 'http://localhost:3000/'
-  booksUrl = this.baseUrl + 'books'
+  booksUrl = this.baseUrl + 'books/'
 
   constructor(private http: HttpClient) { }
+
+  getBook(id: any): Observable<Book>{
+    return this.http.get<Book>(this.booksUrl + id)
+  }
 
   getBooks(): Observable<Book[]> {
     return this.http.get<Book[]>(this.booksUrl);

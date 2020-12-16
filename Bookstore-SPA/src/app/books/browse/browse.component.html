@@ -1,10 +1,7 @@
-<div class="container" id="member-list">
+<div class="container" id="book-list">
     <div class="row justify-content-end">
-      <div class="col-sm-2">
-      </div>
-      <div *ngFor="let book of books" class="col-lg-2 col-md-3 col-sm-10" id="user-cards">
+      <div *ngFor="let book of books" class="col-lg-2 col-md-3 col-sm-10" id="book-cards">
         <app-card [book]="book"></app-card>
       </div>
     </div>
-  
   </div>

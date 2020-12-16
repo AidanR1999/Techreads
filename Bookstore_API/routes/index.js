@@ -17,7 +17,8 @@ var books =[
         "reviews" : [
             {"reviewer":"anon1", "review": "Great book, very comprehensive"},
             {"reviewer":"anon2", "review": "Tells you everything you need to know about JavaScript"},
-        ]
+        ],
+        "url": "https://pixhost.icu/avaxhome/0b/2e/00782e0b.jpg"
     },
     {
         "id": "2",
@@ -31,7 +32,8 @@ var books =[
         "ratings": [2,3,3,4,5,2,3,3,2,4,4,5,4,3,5,4,2],
         "reviews" : [
             {"reviewer":"anon", "review": "Very useful and up to date"},
-        ]
+        ],
+        "url":"https://covers.vitalbook.com/vbid/9781838983253/width/200"
     },
     {
         "id": "3",
@@ -47,7 +49,8 @@ var books =[
             {"reviewer":"anon1", "review": "I read this cover to cover, it was amazing"},
             {"reviewer":"anon2", "review": "Really good book for modern React developers"},
             {"reviewer":"anon3", "review": "Upea kirja, erittäin kattava"}
-        ]
+        ],
+        "url": "https://i.ebayimg.com/images/g/XMkAAOSwmaBe69PU/s-l640.jpg"
     },
     {
         "id": "4",
@@ -61,7 +64,8 @@ var books =[
         "ratings": [4,4,4,3,3,3,5,5,2,1,1,4,5,4,3,3,3,3,3,3],
         "reviews" : [
             {"reviewer":"anon", "review": "Diz tudo o que você precisa saber sobre Angular"}
-        ]
+        ],
+        "url":"https://kbimages1-a.akamaihd.net/Images/bfc5a5ea-fe8f-487a-8250-d4800d1211be/300/200/85/false/null.jpg?scaleup=true&width=614&maxheight=614&method=scale"
     },
     {
         "id": "5",
@@ -73,7 +77,8 @@ var books =[
         "isbn": "978-1789134520",
         "category": "Full-stack",
         "ratings": [4,5,5,5,3,2,4,5,4,4,4,3,3,5,4,4,3,1],
-        "reviews" : []
+        "reviews" : [],
+        "url":"https://static.packt-cdn.com/products/9781838555054/cover/smaller"
     },
     {
         "id": "6",
@@ -88,7 +93,8 @@ var books =[
         "reviews" : [
             {"reviewer":"anon1", "review": "This book is the best thing ever in the entire world"},
             {"reviewer":"anon2", "review": "Ag innse dhut a h-uile dad a dh ’fheumas tu a bhith agad mu JavaScript"},
-        ]
+        ],
+        "url":"https://drek4537l1klr.cloudfront.net/garreau/Figures/cover.jpg"
     },
     {
         "id": "7",
@@ -103,7 +109,8 @@ var books =[
         "reviews" : [
             {"reviewer":"anon1", "review": "This is good but getting a bit out of date"},
             {"reviewer":"anon2", "review": "Braw!"}
-        ]
+        ],
+        "url":"https://static.charlieharvey.org.uk/graphics/reviews/you-dont-know-es6.jpg"
     },
     {
         "id": "8",
@@ -119,7 +126,8 @@ var books =[
             {"reviewer":"anon1", "review": "Quite old now but still a really useful guide to an important technology"},
             {"reviewer":"anon2", "review": "Makes a complex technology clear and understandable"},
             {"reviewer":"anon3", "review": "Fac universa artes patet quod facile intellegi."}
-        ]
+        ],
+        "url":"https://i5.walmartimages.com/asr/0039a766-0e1b-40de-98ee-82e95e223faf_1.3d6ed81b9e9d349d9092d12a5301d256.jpeg"
     },
     {
         "id": "9",
@@ -133,7 +141,8 @@ var books =[
         "ratings": [2,2,2,4,2,4,2,4,2,4,4,4,4,4,4,4,2,4],
         "reviews" : [
             {"reviewer":"anon", "review": "Quite good"},
-        ]
+        ],
+        "url":"https://d33wubrfki0l68.cloudfront.net/ca1425c0e055e8ce6dd1bce9dd3876c6f78e3b4c/92d12/images/websocket-book-comp.png"
     },
     {
         "id": "10",
@@ -148,7 +157,8 @@ var books =[
         "reviews" : [
             {"reviewer":"anon1", "review": "Very up to date and covers a lot of ground"},
             {"reviewer":"anon2", "review": "Comprehensive, but could be more clearly written"},
-        ]
+        ],
+        "url":"https://1.bp.blogspot.com/-sktImyR8bB0/Xz_GsTNJ7SI/AAAAAAAAIhY/K6bDTRcEz2c7DceqwUQrloHewkBYHdreACLcBGAsYHQ/s400/touchmaster_1598014999730.jpeg"
     },
     {
         "id": "11",
@@ -164,7 +174,8 @@ var books =[
             {"reviewer":"anon1", "review": "Really interesting and well written"},
             {"reviewer":"anon2", "review": "I didn't get the point of this at all, I prefer to use Redux"},
             {"reviewer":"anon3", "review": "Worth reading"}
-        ]
+        ],
+        "url":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572255444l/48611191._SX318_.jpg"
     },
     {
         "id": "12",
@@ -180,7 +191,8 @@ var books =[
             {"reviewer":"anon1", "review": "Comprehensive, a really good guide to modern JavaScript"},
             {"reviewer":"anon2", "review": "I didn't get the point of this at all, I prefer to use Redux"},
             {"reviewer":"anon3", "review": "Worth reading"}
-        ]
+        ],
+        "url":"http://ecx.images-amazon.com/images/I/51bRhyVTVGL._SX218_BO1,204,203,200_QL40_.jpg"
     },
     {
         "id": "13",
@@ -194,7 +206,8 @@ var books =[
         "ratings": [1,2,3,4,5,1,2,3,4,5,1,2,3,4,5],
         "reviews" : [
             {"reviewer":"anon", "review": "GraphQL is a really interesting technology for APIs and this book explains it very well"},
-        ]
+        ],
+        "url":"http://dubos.ru/wp-content/uploads/2019/01/learning-graphql-declarative-data-fetching.jpg"
     },
     {
         "id": "14",
@@ -209,7 +222,8 @@ var books =[
         "reviews" : [
             {"reviewer":"anon1", "review": "This is probably the worst £20 I've spent since, well . . . maybe ever. The book doesn't give any background on actually learning core concepts of any of the development stack. There's no explanation given of classes/methods commonly used in React. It gives no background on what any of the NodeJS server components are doing, what's actually happening under the hood with Webpack, etc."},
             {"reviewer":"anon2", "review": "This is a great book! "}
-        ]
+        ],
+        "url":"https://i5.walmartimages.com/asr/d802f596-9ed1-485c-a73e-eee9e674e208.bcf34593f017dff2b2dfa496599d9315.jpeg"
     },
     {
         "id": "15",
@@ -226,7 +240,8 @@ var books =[
             {"reviewer":"anon2", "review": "Блестящий"},
             {"reviewer":"anon3", "review": "شاندار"},
             {"reviewer":"anon4", "review": "훌륭한"}
-        ]
+        ],
+        "url":"https://booksrun.com/image-loader/350/https:__m.media-amazon.com_images_I_41BGtwa2bfL.jpg"
     },
     {
         "id": "16",
@@ -241,7 +256,8 @@ var books =[
         "reviews" : [
             {"reviewer":"anon1", "review": "Very detailed and informative"},
             {"reviewer":"anon2", "review": "I didn't undestand a word of this"},
-        ]
+        ],
+        "url":"https://all-ebook.info/uploads/posts/2020-03/1583311613_1492053112.jpg"
     },
     {
         "id": "17",
@@ -255,7 +271,8 @@ var books =[
         "ratings": [1,2,5,4,3,4,5,4,3,4,5,4,3,4,5,4,3,4],
         "reviews" : [
             {"reviewer":"anon", "review": "A classic book and, indeed, a definitive guide"}
-        ]
+        ],
+        "url":"https://coderprog.com/wp-content/cover/css-definitive-guide-4th.jpg"
     },
     {
         "id": "18",
@@ -267,9 +284,12 @@ var books =[
         "isbn": "978-1484220498",
         "category": "Security",
         "ratings": [4,4,4,3,3,3,2,2,2,1,1,1,1,1,1,1,2,2,3,5,5,5,5,5,],
-        "reviews" : []
+        "reviews" : [],
+        "url":"https://images-na.ssl-images-amazon.com/images/I/41BZkaJD8qL._SY291_BO1,204,203,200_QL40_ML2_.jpg"
     }
 ]
+
+var users = []
 
 var interests = []
 
@@ -305,7 +325,7 @@ router.get('/books/:id', function(req, res) {
       return book.id == req.params["id"];
     });
     selectedbooks.length==0 ? res.status(404): res.status(200);
-    res.send(selectedbooks);
+    res.send(selectedbooks[0]);
 })
 
 /* GET books by search term in description or title (TBD) */
@@ -395,6 +415,30 @@ router.post('/interests/', function(req, res) {
     interests.push(newinterest);     
     res.status(202);
     res.send(newinterest);
+})
+
+/* GET login by user */
+/* body should be of the form {"username":"anon", "password":"pass123"} */
+router.get('/login/', function(req, res) {
+    var user = users.filter(function(u) {
+        return u.user == req.params.username;
+    });
+    if(user[0].password == req.params.password) {
+        selectedinterests.length==0 ? res.status(404): res.status(200);
+        res.send(user);
+    } 
+    else {
+        res.status(401);
+    }
+})
+
+/* POST register by user */
+/* body should be of the form {"username":"anon", "password":"pass123"} */
+router.post('/register/', function(req, res) {
+    var user = req.body;
+    users.push(user);
+    res.status(202);
+    res.send(user);
 })
 
 
