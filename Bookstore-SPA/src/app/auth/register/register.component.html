@@ -11,6 +11,7 @@
     <div class="mb-3">
         <label for="confPassword" class="form-label">Confirm Password</label>
         <input type="password" class="form-control" id="confPassword" required [(ngModel)]="model.confPassword" name="confPassword">
+        <span class="text-danger">{{error}}</span>
       </div>
     <button [disabled]="!registerForm.valid" type="submit" class="btn btn-primary">Register</button>
 </form>

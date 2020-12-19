@@ -15,6 +15,8 @@ export class RegisterComponent implements OnInit {
     confPassword: ''
   };
 
+  error = '';
+
   constructor(private authService: AuthService, private router: Router) { }
 
   ngOnInit(): void {
@@ -23,12 +25,12 @@ export class RegisterComponent implements OnInit {
   register() {
     if(this.model.password == this.model.confPassword){
       this.authService.register(this.model.username, this.model.password).subscribe(data => {
-        console.log("working");
         this.router.navigate(['/books'])
       }, err => {
-        console.log(err);
+        this.error = "Username is already taken"
       })
-      
+    } else {
+      this.error = "Passwords do not match"
     }
   }
 

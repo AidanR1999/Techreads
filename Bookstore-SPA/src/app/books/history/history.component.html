@@ -1,0 +1,11 @@
+<h1>Book History</h1>
+
+<p *ngIf="books.length == 0">It looks like you haven't added any books to your history yet</p>
+
+<div class="container" id="history-list">
+    <div class="row">
+      <div *ngFor="let book of books" class="col-lg-3 d-flex align-items-stretch" id="book-cards">
+        <app-card [book]="book"></app-card>
+      </div>
+    </div>
+</div>

@@ -14,6 +14,8 @@ export class LoginComponent implements OnInit {
     password: ''
   };
 
+  error = '';
+
   constructor(private authService: AuthService, private router: Router) {   }
 
   ngOnInit(): void {
@@ -24,7 +26,11 @@ export class LoginComponent implements OnInit {
       if(this.authService.loggedIn()){
         this.router.navigate(['/books']);
       }
+    }, err => {
+      this.error = "Username or password is incorrect";
     });
   }
+
+  
 
 }

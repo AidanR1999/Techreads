@@ -1,6 +1,14 @@
+<h1>View All Books</h1>
+<div class="container">
+  <p ><strong>Search for book:</strong></p>
+  <input class="form-control" id="search" type="text" name="search" placeholder="Search by Title, Author or Category" (keyup)="search()" [(ngModel)]="query">
+</div>
+
+<br>
+
 <div class="container" id="book-list">
-    <div class="row justify-content-end">
-      <div *ngFor="let book of books" class="col-lg-3 d-flex align-items-stretch" id="book-cards">
+    <div class="row">
+      <div *ngFor="let book of booksSearch" class="col-lg-3 d-flex align-items-stretch" id="book-cards">
         <app-card [book]="book"></app-card>
       </div>
     </div>

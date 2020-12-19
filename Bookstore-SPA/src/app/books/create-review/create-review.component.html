@@ -1,0 +1,13 @@
+<form #reviewForm="ngForm" (ngSubmit)="addReview()" class="card">
+    <div class="container-fluid">
+        <div class="col-md-12 column">
+            <h3 style="padding-top: 1%">Rate it out of 5 stars!</h3>
+            <ngb-rating [max]="5" [(ngModel)]="rating" [(rate)]="rating" [readonly]="false" required></ngb-rating>
+            <h3 style="padding-top: 1%">Want to go more in depth? Add your own review here:</h3>
+            <textarea class="form-control" required [(ngModel)]="review" name="review" id="review" rows="4" placeholder="Add review" style="resize: none;"></textarea>
+            <br>
+            <button [disabled]="!reviewForm.valid" type="submit" class="btn btn-primary">Add Review</button>
+            <div class="row"></div>
+        </div>
+    </div>
+</form>

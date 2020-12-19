@@ -1,0 +1,29 @@
+.customer-reviews {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .customer-reviews .column {
+    margin-bottom: 30px;
+  }
+  .customer-reviews .column .inner-box h3 .verified{
+    color: green;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+  }
+
+  .customer-reviews .column .inner-box .date {
+    font-size: 18px;
+   font-weight: bold;
+  }
+
+  .customer-reviews .column .inner-box {
+    background-color: #f5f5f5;
+    padding: 15px;
+    min-height: 250px;
+  }
+  .customer-reviews .column h3 {
+    margin-top: 5px;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+  }

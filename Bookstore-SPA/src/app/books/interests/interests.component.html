@@ -1,0 +1,30 @@
+<h1>Your Interests:</h1>
+<div class="container">
+  <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <p class="col-form-label">Add Interest:</p>
+      </div>
+      <div class="col-auto">
+          <select class="form-select" [(ngModel)]="selected" name="selectedOption" aria-label="Default select example">
+              <option [ngValue]="null" >Select an Interest</option>
+              <option *ngFor="let category of categories">{{category}} </option>
+            </select>
+      </div>
+      <div class="col-auto">
+          <button type="submit" class="btn btn-primary" (click)="addInterest()">Add Interest</button>
+  </div>
+</div>
+
+<ul>
+  <li *ngFor="let interest of interests">{{interest.interest}}</li>
+</ul>
+
+<h1>Recommended Reading</h1>
+<p>Based on your reading history and interests</p>
+<div class="container" id="history-list">
+  <div class="row">
+    <div *ngFor="let book of recommended" class="col-lg-3 d-flex align-items-stretch" id="book-cards">
+      <app-card [book]="book"></app-card>
+    </div>
+  </div>
+</div>

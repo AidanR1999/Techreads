@@ -46,4 +46,9 @@ export class AuthService {
   logout(){
     localStorage.removeItem('user');
   }
+
+  getCurrentUser(){
+    let userString = localStorage.getItem('user') || '{}';
+    return JSON.parse(userString);
+  }
 }
